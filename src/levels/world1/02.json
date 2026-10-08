@@ -1,0 +1,131 @@
+{
+  "id": "w1-02",
+  "name": "Over the Wall",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "bouncer",
+    "bouncer"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 400
+  },
+  "stars": {
+    "score": 1800,
+    "style": {
+      "type": "bonus_loot"
+    }
+  },
+  "blocks": [
+    {
+      "type": "steel",
+      "x": 560,
+      "y": 460,
+      "w": 40,
+      "h": 320
+    },
+    {
+      "type": "wood",
+      "x": 660,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 716,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 688,
+      "y": 536,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 840,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 980,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 910,
+      "y": 488,
+      "w": 180,
+      "h": 24
+    },
+    {
+      "type": "wood",
+      "x": 910,
+      "y": 446,
+      "w": 60,
+      "h": 60
+    }
+  ],
+  "loot": [
+    {
+      "type": "gem",
+      "x": 688,
+      "y": 494.7,
+      "value": 250,
+      "bonus": true
+    },
+    {
+      "type": "cash",
+      "x": 910,
+      "y": 606.06,
+      "value": 200
+    },
+    {
+      "type": "coin",
+      "x": 910,
+      "y": 404.3,
+      "value": 100
+    }
+  ],
+  "hint": "Tap mid-air to send the Bouncer toward your finger.",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 12.784329237361291,
+      "vy": -17.596119627655106,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 28.4375,
+      "y": 18.939375,
+      "step": 99
+    },
+    {
+      "type": "launch",
+      "vx": 14.553590688305167,
+      "vy": -16.163399954133325,
+      "step": 345
+    },
+    {
+      "type": "tap",
+      "x": 21.5,
+      "y": 15.459375,
+      "step": 399
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "w1-03",
+  "name": "Hard Stone",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "bomber",
+    "bomber",
+    "bouncer"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 400
+  },
+  "stars": {
+    "score": 3300,
+    "style": {
+      "type": "max_thieves",
+      "value": 2
+    }
+  },
+  "blocks": [
+    {
+      "type": "stone",
+      "x": 700,
+      "y": 550,
+      "w": 40,
+      "h": 140
+    },
+    {
+      "type": "stone",
+      "x": 880,
+      "y": 550,
+      "w": 40,
+      "h": 140
+    },
+    {
+      "type": "stone",
+      "x": 790,
+      "y": 458,
+      "w": 240,
+      "h": 44
+    },
+    {
+      "type": "wood",
+      "x": 790,
+      "y": 406,
+      "w": 60,
+      "h": 60
+    },
+    {
+      "type": "wood",
+      "x": 1000,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 1100,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 1050,
+      "y": 488,
+      "w": 140,
+      "h": 24
+    },
+    {
+      "type": "stone",
+      "x": 1050,
+      "y": 446,
+      "w": 60,
+      "h": 60
+    }
+  ],
+  "loot": [
+    {
+      "type": "cash",
+      "x": 790,
+      "y": 606.06,
+      "value": 300
+    },
+    {
+      "type": "coin",
+      "x": 750,
+      "y": 608.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 1050,
+      "y": 404.3,
+      "value": 100
+    }
+  ],
+  "hint": "Stone shrugs off hits. Tap to drop a bomb on it.",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 17.462621877630156,
+      "vy": -6.703272496244842,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 0,
+      "y": 0,
+      "step": 87
+    }
+  ]
+}

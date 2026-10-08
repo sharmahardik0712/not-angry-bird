@@ -1,0 +1,141 @@
+{
+  "id": "w1-04",
+  "name": "Powder Keg",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "bouncer",
+    "bomber"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 450
+  },
+  "stars": {
+    "score": 12700,
+    "style": {
+      "type": "combo",
+      "value": 3
+    }
+  },
+  "blocks": [
+    {
+      "type": "tnt",
+      "x": 640,
+      "y": 598,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "type": "wood",
+      "x": 720,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 900,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 810,
+      "y": 488,
+      "w": 220,
+      "h": 24
+    },
+    {
+      "type": "tnt",
+      "x": 810,
+      "y": 598,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "type": "wood",
+      "x": 720,
+      "y": 416,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 900,
+      "y": 416,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 810,
+      "y": 344,
+      "w": 220,
+      "h": 24
+    },
+    {
+      "type": "wood",
+      "x": 732,
+      "y": 277,
+      "w": 24,
+      "h": 110
+    },
+    {
+      "type": "wood",
+      "x": 888,
+      "y": 277,
+      "w": 24,
+      "h": 110
+    },
+    {
+      "type": "wood",
+      "x": 810,
+      "y": 210,
+      "w": 200,
+      "h": 24
+    }
+  ],
+  "loot": [
+    {
+      "type": "cash",
+      "x": 810,
+      "y": 462.06,
+      "value": 200
+    },
+    {
+      "type": "gem",
+      "x": 810,
+      "y": 318.7,
+      "value": 250
+    },
+    {
+      "type": "idol",
+      "x": 810,
+      "y": 178.3,
+      "value": 500,
+      "bonus": true
+    }
+  ],
+  "hint": "Wood is weak. What happens if the TNT goes?",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 16.199005177787924,
+      "vy": -9.3525,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 25.3125,
+      "y": 9.959375,
+      "step": 87
+    }
+  ]
+}

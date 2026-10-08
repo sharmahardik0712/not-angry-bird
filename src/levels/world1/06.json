@@ -1,0 +1,128 @@
+{
+  "id": "w1-06",
+  "name": "Pull Job",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "magnet",
+    "magnet",
+    "bomber"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 500
+  },
+  "stars": {
+    "score": 1800,
+    "style": {
+      "type": "bonus_loot"
+    }
+  },
+  "blocks": [
+    {
+      "type": "steel",
+      "x": 760,
+      "y": 330,
+      "w": 280,
+      "h": 20
+    },
+    {
+      "type": "steel",
+      "x": 760,
+      "y": 230,
+      "w": 280,
+      "h": 20
+    },
+    {
+      "type": "glass",
+      "x": 632,
+      "y": 280,
+      "w": 16,
+      "h": 80
+    },
+    {
+      "type": "steel",
+      "x": 960,
+      "y": 565,
+      "w": 20,
+      "h": 110
+    },
+    {
+      "type": "steel",
+      "x": 1080,
+      "y": 565,
+      "w": 20,
+      "h": 110
+    },
+    {
+      "type": "vault",
+      "x": 1020,
+      "y": 495,
+      "w": 140,
+      "h": 30
+    }
+  ],
+  "loot": [
+    {
+      "type": "coin",
+      "x": 680,
+      "y": 308.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 730,
+      "y": 308.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 780,
+      "y": 308.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 830,
+      "y": 308.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 880,
+      "y": 308.3,
+      "value": 100
+    },
+    {
+      "type": "idol",
+      "x": 1020,
+      "y": 600.3,
+      "value": 500,
+      "bonus": true
+    }
+  ],
+  "hint": "Tap to make the Magnet hover and pull. Vaults need a bomb.",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 20.305374276314136,
+      "vy": -7.794502902610281,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 0,
+      "y": 0,
+      "step": 105
+    },
+    {
+      "step": 375,
+      "type": "getaway"
+    }
+  ]
+}

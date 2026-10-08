@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#FDF3EA" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Chain Reaction Heist</title>
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        background: #FDF3EA;
+        overflow: hidden;
+        touch-action: none;
+        overscroll-behavior: none;
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #game {
+        position: fixed;
+        inset: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+      }
+      #rotate {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 10;
+        background: #FDF3EA;
+        color: #3D3553;
+        font: 700 20px system-ui, -apple-system, "Segoe UI", sans-serif;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        padding: 16px;
+      }
+      #rotate .phone {
+        width: 46px;
+        height: 80px;
+        border: 5px solid #FF8A80;
+        border-radius: 10px;
+        animation: turn 1.6s ease-in-out infinite;
+      }
+      @keyframes turn { 0%, 30% { transform: rotate(0); } 60%, 100% { transform: rotate(-90deg); } }
+      @media (orientation: portrait) and (pointer: coarse) {
+        #rotate { display: flex; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="rotate"><div class="phone"></div>Turn your phone sideways to start the heist</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

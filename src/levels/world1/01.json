@@ -1,0 +1,133 @@
+{
+  "id": "w1-01",
+  "name": "Opening Hours",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "bouncer",
+    "bouncer",
+    "bouncer"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 300
+  },
+  "stars": {
+    "score": 3600,
+    "style": {
+      "type": "max_thieves",
+      "value": 1
+    }
+  },
+  "blocks": [
+    {
+      "type": "wood",
+      "x": 700,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 860,
+      "y": 560,
+      "w": 24,
+      "h": 120
+    },
+    {
+      "type": "wood",
+      "x": 780,
+      "y": 488,
+      "w": 200,
+      "h": 24
+    },
+    {
+      "type": "wood",
+      "x": 716,
+      "y": 426,
+      "w": 24,
+      "h": 100
+    },
+    {
+      "type": "wood",
+      "x": 844,
+      "y": 426,
+      "w": 24,
+      "h": 100
+    },
+    {
+      "type": "wood",
+      "x": 780,
+      "y": 364,
+      "w": 200,
+      "h": 24
+    },
+    {
+      "type": "wood",
+      "x": 990,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 990,
+      "y": 536,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 990,
+      "y": 480,
+      "w": 56,
+      "h": 56
+    }
+  ],
+  "loot": [
+    {
+      "type": "cash",
+      "x": 780,
+      "y": 606.06,
+      "value": 200
+    },
+    {
+      "type": "coin",
+      "x": 780,
+      "y": 464.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 780,
+      "y": 340.3,
+      "value": 100
+    },
+    {
+      "type": "coin",
+      "x": 990,
+      "y": 440.3,
+      "value": 100
+    }
+  ],
+  "hint": "Drag back and let go. Knock the loot down to the street.",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 21.75,
+      "vy": 0,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 24.375,
+      "y": 10.634375,
+      "step": 63
+    }
+  ]
+}

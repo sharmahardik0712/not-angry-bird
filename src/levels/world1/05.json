@@ -1,0 +1,140 @@
+{
+  "id": "w1-05",
+  "name": "Spread the Love",
+  "world": 1,
+  "width": 1300,
+  "gravity": 1,
+  "slingshot": {
+    "x": 150,
+    "y": 500
+  },
+  "thieves": [
+    "splitter",
+    "splitter",
+    "bouncer"
+  ],
+  "goal": {
+    "type": "loot",
+    "required": 450
+  },
+  "stars": {
+    "score": 2200,
+    "style": {
+      "type": "max_thieves",
+      "value": 1
+    }
+  },
+  "blocks": [
+    {
+      "type": "wood",
+      "x": 640,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 640,
+      "y": 536,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 820,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 820,
+      "y": 536,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 820,
+      "y": 480,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 820,
+      "y": 424,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 1000,
+      "y": 592,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 1000,
+      "y": 536,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "wood",
+      "x": 1000,
+      "y": 480,
+      "w": 56,
+      "h": 56
+    },
+    {
+      "type": "stone",
+      "x": 1100,
+      "y": 576,
+      "w": 44,
+      "h": 88
+    }
+  ],
+  "loot": [
+    {
+      "type": "coin",
+      "x": 640,
+      "y": 496.3,
+      "value": 150
+    },
+    {
+      "type": "coin",
+      "x": 820,
+      "y": 384.3,
+      "value": 150
+    },
+    {
+      "type": "coin",
+      "x": 1000,
+      "y": 440.3,
+      "value": 150
+    },
+    {
+      "type": "cash",
+      "x": 1100,
+      "y": 518.06,
+      "value": 200
+    }
+  ],
+  "hint": "Tap and the Splitter becomes three.",
+  "solution": [
+    {
+      "type": "launch",
+      "vx": 21.008886721787235,
+      "vy": -5.629314230979826,
+      "step": 45
+    },
+    {
+      "type": "tap",
+      "x": 0,
+      "y": 0,
+      "step": 87
+    }
+  ]
+}
